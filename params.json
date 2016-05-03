@@ -1,0 +1,6 @@
+{
+  "name": "NDVI for large raster python",
+  "tagline": "NDVI calculation by Python",
+  "body": "# Calculate NDVI for Large Raster Dataset by Python\r\n\r\nStep 1: Install gdal module      download from >>>> http://www.lfd.uci.edu/~gohlke/pythonlibs/\r\n(1) Download gdal if you don't have it installed.\r\n(2) After download gdal.whl, open your command prompt, type \"cd Downloads\", then hit \"Enter\"\r\n(3) type \"pip install xxxx.whl\", then \"Enter\"\r\n\r\n\r\nStep 2: set file path\r\n(1) Specify paths of the input and output raster \r\n(2) Specify names of the input and output raster \r\n(3) You have to know \r\n\r\n\r\nStep 3: Run this script, then you are done ",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
