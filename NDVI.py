@@ -123,7 +123,7 @@ ysize = nrows
 xsize = ncols
 
 # read row
-for i in range(0, ysize, block_size):
+for i in xrange(0, ysize, block_size):
 
     # don't want moving window to be larger than row size of input raster
     if i + block_size < ysize:  
@@ -132,7 +132,7 @@ for i in range(0, ysize, block_size):
         rows = ysize - i
         
     # read col      
-    for j in range(0, xsize, block_size):
+    for j in xrange(0, xsize, block_size):
 
         # don't want moving window to be larger than col size of input raster
         if j + block_size < xsize:  
