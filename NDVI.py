@@ -117,8 +117,6 @@ dst_ds.SetGeoTransform(ds.GetGeoTransform())
 dst_ds.SetProjection(ds.GetProjection())  
 
 # segment rows and cols
-y_block_size = int(np.ceil(nrows/float(block_size)))
-x_block_size = int(np.ceil(ncols/float(block_size)))
 ysize = nrows
 xsize = ncols
 
