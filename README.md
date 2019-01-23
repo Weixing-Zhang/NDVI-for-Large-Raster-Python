@@ -14,11 +14,11 @@ I learned and gained a lot of help from Python community. Thank you!
 I share this script mainly because back then, I could not find a easy-to-use Python script to
 calculate NDVI for large RS images. I hope this script will save someone's time! 
 
-(1) You can run it directly from the command line as such:
+- You can run it directly from the command line as such:
 
-python NDVI.py -block 500 -redband 1 -NIRband 4 -i G:\input.tif -o G:\output.tif
+>python NDVI.py -block 500 -redband 1 -NIRband 4 -i G:\input.tif -o G:\output.tif
 
-(2) You can customize your own parameters and input and output directory in the script as such:
+- You can customize your own parameters and input and output directory in the script as such:
  
 <li>   block_size = 500                     # Size of processing block by pixel</li>
 <li>   redband_num = 1                      # Order of red band in input raster</li>
