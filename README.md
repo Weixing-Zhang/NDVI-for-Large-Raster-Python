@@ -15,9 +15,9 @@ I share this script mainly because back then, I could not find a easy-to-use Pyt
 calculate NDVI for large RS images. I hope this script will save someone's time! 
 
 - You can run it directly from the command line as such:
-
->python NDVI.py -block 500 -redband 1 -NIRband 4 -i G:\input.tif -o G:\output.tif
-
+```sh
+python NDVI.py -block 500 -redband 1 -NIRband 4 -i G:\input.tif -o G:\output.tif
+```
 - You can customize your own parameters and input and output directory in the script as such:
 
 ```
