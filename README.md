@@ -1,11 +1,11 @@
 # Calculate NDVI for large remoted sensing images by Python
 
 Acknowlegement:
-- @ Script Created on May 3rd 2016</li>
-- @ Author: Weixing Zhang</li>
-- @ Purpose: Calculate NDVI for large images</li>
-- @ python 2.76</li>
-- @ Required modules: gdal, os.path, numpy, and argparse</li>
+* Script Created on May 3rd 2016</li>
+* Author: Weixing Zhang</li>
+* Purpose: Calculate NDVI for large images</li>
+* python 2.76</li>
+* Required modules: gdal, os.path, numpy, and argparse</li>
 
 
 I thank Roger Veciana i Rovira for sharing his code about raster classification
