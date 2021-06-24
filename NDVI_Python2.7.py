@@ -27,7 +27,7 @@ import numpy as np
 
 """
 COMMANDLINE: 
-python NDVI.py -block 500 -redband 1 -NIRband 4 -i C:\Users\Wei\Documents\GitHub\NDVI-for-Large-Raster-Python\sample.tif -o C:\Users\Wei\Documents\GitHub\NDVI-for-Large-Raster-Python\sample_NDVI.tif
+python NDVI.py -block 500 -redband 1 -NIRband 4 -i sample.tif -o sample_ndvi.tif
 """
 
 if __name__ == '__main__':
@@ -69,8 +69,8 @@ if __name__ == '__main__':
     redband_num = 1
     NIRband_num = 4
 
-    inputRaster_path = r"G:\sample.tif"
-    outputRaster_path = r"G:\sample_ndvi.tif"
+    inputRaster_path = r"sample.tif"
+    outputRaster_path = r"sample_ndvi.tif"
     """
 
     # _______________________________________________________________
